@@ -30,12 +30,13 @@ A responsive job portal web app built with **React**, **React Router**, and **st
 
 ```
 src/
-├── components/       # Reusable UI components
-├── pages/            # Login, Home, Jobs, JobItemDetails
-├── services/         # API request handlers
-├── utils/            # Auth & helper functions
-└── App.js            # Routing config
+├── components/       # Reusable React components (Header, JobCard, etc.)
+├── App.css           # Global styling
+├── App.js            # Main app component and routing logic
+├── index.js          # App entry point
+└── setupTests.js     # Jest setup (for test configurations)
 ```
+
 
 ## ⚙️ Setup Instructions
 
