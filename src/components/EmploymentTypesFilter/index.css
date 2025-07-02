@@ -1,0 +1,25 @@
+.employment-types-container {
+  display: flex;
+  flex-direction: column;
+}
+.employment-type-heading {
+  color: #ffffff;
+  font-size: 26px;
+}
+.employment-type-list-items {
+  display: flex;
+  align-self: flex-start;
+  width: 35%;
+  justify-content: space-between;
+  align-items: center;
+}
+.employment-type-text {
+  color: #ffffff;
+  font-size: 20px;
+}
+.employment-types-ul-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

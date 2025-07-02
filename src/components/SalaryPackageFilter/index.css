@@ -1,0 +1,21 @@
+.salary-ranges-container {
+  display: flex;
+  flex-direction: column;
+}
+.salary-ranges-heading {
+  color: #ffffff;
+  font-size: 26px;
+}
+.salary-ranges-ul-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.salary-range-list-item {
+  display: flex;
+  align-self: flex-start;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
